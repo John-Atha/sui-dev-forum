@@ -1,0 +1,23 @@
+{
+  "name": "transfer-all-sui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transfer": "env-cmd -f .env ts-node src/transfer.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.4",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@mysten/sui.js": "^0.37.1",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "env-cmd": "^10.1.0"
+  }
+}
